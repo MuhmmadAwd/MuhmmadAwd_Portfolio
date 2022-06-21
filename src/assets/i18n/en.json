@@ -1,0 +1,178 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "MuhmmadAwd_Resume.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "full-stack developer with <span class='underline'>1 year of experience</span> in web developer. A fast and efficient learner with deep understanding and a passion for software development. Currently seeking a role as a full-stack dev at a professional company.",
+  "Banner.ActionBtn": "Download Resume",
+
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "Hello! My name is <span class='underline'> Muhammad </span> and I enjoy creating things that live on the internet. My interest in web development started back in 2014 when I decided to edit a blogger template for my blog so I learn a little about html and css",
+    "Fast-forward to today, and I’ve had an internship at <span class='underline'> GlobaDev </span> where I learned about <span class='underline'> Agile methodology  </span> and how to write a <span class='underline'> clean code  </span> and building many websites and projects to practice our knowledge ",
+    "Here are a few technologies I’ve been working with recently:"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "GlobaDev",
+      "Title": "Fullstack developer",
+      "Date": "june 2021 - May 2022",
+      "Description": [
+        "Used agile methodology and learned how to manage projects through it.",
+        "Developed a social dating app using angular and asp.net core.",
+        "Used Postman Rest client for chrome to test all the services.",
+        "Comfortable with source control tools such as git and GitHub",
+        "Implemented Test Driven Deployment (TDD) to perform  the unit tests."
+      ]
+    },
+    {
+      "Tab": "Freelancer",
+      "Title": "Front-end developer",
+      "Date": "april 2021 - june 2021",
+      "Description": [
+        "Developed a landing page with Bootstrap.",
+        "Deployed a government website with heroku and added ssl certificate by cloudflare."
+      ]
+    },
+    {
+      "Tab": "GazaSkyGeeks",
+      "Title": "Front-end developer",
+      "Date": "Sep 2020 - Dec 2020",
+      "Description": [
+        "Internship By Gaza Sky Geeks about React js includes: <br/> React js fundamental, Advanced Guides, Ant.Design, Maps Integration, Redux  ",
+        "Developed a restaurant website using React js and google maps api for map integration"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Dating app",
+      "Description": "A social App to find soulmates that performs various functions like signing Up, logout, messaging, searching, uploading photos and much more developed using <span class='underline'>angular</span>,<span class='underline'>Entity Framework</span>, and <span class='underline'>asp.net core</span>.",
+      "imgs": [
+        "assets/images/datingApp/home.png",
+        "assets/images/datingApp/profile.png",
+        "assets/images/datingApp/edit-profile.png",
+        "assets/images/datingApp/message.png",
+        "assets/images/datingApp/likes.png"
+      ],
+      "ghLink": "https://github.com/MuhmmadAwd/DatingApp",
+      "Technologies": [
+        "Asp.net core",
+        "Angular",
+        "ngx-bootstrap",
+        "entity framework"
+      ]
+    },
+    {
+      "Title": "Recipes Book", 
+      "Description": "A cookbook App that performs various functions like sign Up, logout, add to the shopping list as well as Addition, remove, and update the Recipes developed using <span class='underline'>angular</span> and <span class='underline'>firebase</span>.",
+      "imgs": [
+        "assets/images/recipeBook/recipes.png",
+        "assets/images/recipeBook/edit-recipe.png",
+        "assets/images/recipeBook/shopping-list.png"
+      ],
+      "ghLink": "https://github.com/MuhmmadAwd/AngularRecipes",
+      "demoLink": "https://angular-book-recipe.web.app",
+      "Technologies": ["Angular", "firebase", "bootstrap", "RxJS"]
+    },
+    
+    {
+      "Title": "movies app",
+      "Description": "A movies App that performs various functions like sign Up, login,searching and fetch movies from the server developed using <span class='underline'>angular</span>.",
+      "imgs": ["assets/images/movies/home.png","assets/images/movies/movie.png","assets/images/movies/SignUp.png"],
+      "ghLink": "https://github.com/MuhmmadAwd/angular-movies",
+      "demoLink": "https://angulartrending.netlify.app/login",
+      "Technologies": ["Angular", "bootstrap", "API"]
+    },
+    {
+      "Title": "Pato Place Restaurant ",
+      "Description": "A website developed using <span class='underline'>React js</span> and <span class='underline'>bootstrap</span> in which a customer can browse the menu, Reservation table or following the restaurant and read its' news.",
+      "imgs": [
+        "assets/images/patoplace/HOME.png",
+        "assets/images/patoplace/pato.png",
+        "assets/images/patoplace/CONTACT.png",
+        "assets/images/patoplace/MENU.png",
+        "assets/images/patoplace/ABOUT.png",
+        "assets/images/patoplace/Reservation.png",
+        "assets/images/patoplace/Blog.png"
+      ],
+      "Technologies": [
+        "React js",
+        "React Hooks",
+        "bootstrap",
+        "google maps API"
+      ]
+    },
+    {
+      "Title": "simple store",
+      "Description": "website developed using react js and Redux preform various functions like get post form the server and add to cart.",
+      "imgs": [
+        "assets/images/redux/posts.png",
+        "assets/images/redux/post.png",
+        "assets/images/redux/cart.png"
+      ],
+      "ghLink": "https://github.com/MuhmmadAwd/redux-simple-store",
+      "demoLink": "https://redux-simple-store.netlify.app/",
+      "Technologies": ["React js", "Redux", "bootstrap", "fake API"]
+    }
+  ],
+
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "simple-HIS-system",
+      "Description": "project performs various functions like Addition, removal, and update in the patient.",
+      "ghLink": "https://github.com/MuhmmadAwd/simple-HIS-system",
+      "demoLink": "https://muhmmadawd.github.io/simple-HIS-system/",
+      "Technologies": ["javaScript", "webpack", "knockout js", "Bootstrap"]
+    },
+    {
+      "Title": "js-warDeckGame",
+      "Description": "card game performs various functions like draw cards, shuffle, compare the card then checkWinner .",
+      "ghLink": "https://github.com/MuhmmadAwd/js-warDeckGame",
+      "demoLink": "https://war-deck.netlify.app/",
+      "Technologies": [ "javaScript", "CSS", "HTML"]
+    },
+    {
+      "Title": "calculator",
+      "Description": "OOP calculator performs basic calculation functions.",
+      "ghLink": "https://github.com/MuhmmadAwd/calculator",
+      "demoLink": "https://js-calculater.netlify.app/",
+      "Technologies": ["javaScript", "OOP", "CSS", "HTML"]
+    },
+    {
+      "Title": "slider",
+      "Description": "pure javaScript slider with get Prevues and next slide functionality.",
+      "ghLink": "https://github.com/MuhmmadAwd/pureSlider",
+      "demoLink": "https://pureslider.netlify.app",
+      "Technologies": ["javaScript", "CSS", "GIT"]
+    },
+    {
+      "Title": "iPortfolio Clone",
+      "Description": "bootstrap template with 6 servals sections and pretty design.",
+      "ghLink": "https://github.com/MuhmmadAwd/iPortfolioClone",
+      "demoLink": "https://iportfolioclone.netlify.app",
+      "Technologies": ["bootstrap", "CSS", "HTML"]
+    },
+    {
+      "Title": "bezel clone",
+      "Description": "bootstrap template with 6 servals sections and pretty design.",
+      "ghLink": "https://github.com/MuhmmadAwd/bootstrapExam",
+      "demoLink": "https://bootstrap7template.netlify.app/",
+      "Technologies": ["bootstrap", "CSS", "HTML"]
+    }
+  ],
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
+  "Contact.Btn": "Say Hello"
+}
